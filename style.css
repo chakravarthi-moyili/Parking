@@ -1,0 +1,46 @@
+body{
+    background-image: url(bgparking.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100vh;
+}
+.dbody{
+    width: 400px;
+    height: 600px;
+    border: solid rgb(255, 255, 255) 3px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+h1{
+    display: inline;
+    color: #268dce;
+    font-size: 38px;
+    border-top: solid #268dce 2px;
+    border-bottom: solid #268dce 2px;
+    padding: 3px;
+    position: relative;
+    top: 5%;
+}
+#logo{
+    width: 150px;
+    height: 150px;
+    border: double 2px #268dce;
+    border-radius: 100px;
+    position: relative;
+    top: 10%;
+}
+.details{
+    position: relative;
+    top: 15%;
+}
+p{
+    font-size: 18px;
+    font-weight: bold;
+}
+#out{
+    color: red;
+    font-size: 35px;
+}
